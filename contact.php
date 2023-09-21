@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 } else {
     // If accessed directly, redirect to the contact page
-    header("Location: your_contact_page.html");
+    header("index.html");
     exit;
 }
 ?>
